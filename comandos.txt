@@ -1,0 +1,21 @@
+498  cd Desktop/
+499  mkdir  16-08-23-Checkpoint-AyxaChaverra
+500  code 16-08-23-Checkpoint-AyxaChaverra/
+501  git init
+502  git branch -M main
+503  git remote add origin git@github.com:achaverrar/16-08-23-Checkpoint-AyxaChaverra.git
+504  touch main.js index.html
+505  git add .
+506  git commit -m "commit 01 AyxaChaverra"
+507  git push -u origin main
+508  git switch -c feature
+509  mkdir Hardware Software SeguridadInformatica
+510  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+511  git add .
+512  git commit -m "commit 02 de AyxaChaverra"
+513  git push -u origin feature
+514  git checkout main
+515  mv main.js resumenHardware.txt
+516  mv index.html resumenSoftware.txt
+517  touch comandos.txt
+518  history
